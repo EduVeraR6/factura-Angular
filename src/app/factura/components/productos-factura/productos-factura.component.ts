@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Producto } from '../../interfaces/productos.interface';
-import { DialogService } from '../../services/dialog.service';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { DialogComponent } from 'src/app/shared/dialog/dialog.component';
 

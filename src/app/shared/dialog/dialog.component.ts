@@ -15,7 +15,7 @@ export class DialogComponent implements OnInit{
   constructor(private formBuilder: FormBuilder, private dialogRef: MatDialogRef<DialogComponent>) {
 
     this.form = this.formBuilder.group({
-      codigo: ['', Validators.required],
+      codigo: ['', Validators.required ],
       descripcion: ['', Validators.required],
       cantidad: ['', [Validators.required, Validators.min(1)]],
       precio: ['', [Validators.required, Validators.min(0.01)]],

@@ -6,7 +6,7 @@ import { Producto } from '../interfaces/productos.interface';
 @Injectable({
   providedIn: 'root'
 })
-export class DialogService {
+export class ProductService {
 
   _productos!: Producto ;
 
